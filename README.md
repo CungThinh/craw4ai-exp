@@ -19,4 +19,7 @@ This project demonstrates how to extract structured pricing data for OpenAI mode
 
 ## Run
 ```sh
-   export ANTHROPIC_API_KEY=your-anthropic-api-key
+pip install crawl4ai
+crawl4ai-setup
+python3 main.py
+export ANTHROPIC_API_KEY=your-anthropic-api-key
